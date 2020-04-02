@@ -1,0 +1,4 @@
+store:
+    shiftClickIgnored: true
+place:
+    safeSpawning: true

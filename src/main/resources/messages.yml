@@ -1,0 +1,25 @@
+# The prefix used for plugin messages
+prefix: "&a[&fPortable&bHorses&a]: &7"
+# The item name
+display-name: "&b&o便携式马鞍"
+# Various messages used by the plugin
+messages:
+    noPermission: "&c你没有权限!"
+    cantSpawnThere: "&d没有足够的空间!"
+    reload: "&a成功加载了配置文件!"
+    place:
+        horse: "&a你放出了马鞍中的马!"
+        #skeletonhorse: "&a你放出了马鞍中的骷髅马!"
+        #zombiehorese: "&a你放出了马鞍中的僵尸马!"
+        mule: "&a你放出了马鞍中的骡!"
+        donkey: "&a你放出了马鞍中的驴!"
+        llama: "&a你放出了地毯中的羊驼!"
+        traderllama: "&a你放出了地毯中的行商羊驼!"
+    store:
+        llama: "&a你把这只羊驼封印到了地毯里!"
+        traderllama: "&a你把这只行商羊驼封印到了地毯里!"
+        donkey: "&a你把这只驴封印到了马鞍里!"
+        mule: "&a你把这只骡封印到了马鞍里!"
+        #zombiehorese: "&a你把这匹僵尸马封印到了马鞍里!"
+        #skeletonhorse: "&a你把这匹骷髅马封印到了马鞍里!"
+        horse: "&a你把这匹马封印到了马鞍里!"

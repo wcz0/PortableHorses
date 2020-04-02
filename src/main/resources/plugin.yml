@@ -1,0 +1,28 @@
+main: one.wcz.mc.portablehorses.Main
+name: PortableHorses
+version: 2.0
+description: PortableHorses
+api-version: 1.15
+author: WCZ
+website: wcz.one
+
+commands:
+    phorse:
+        aliases: [ph, portablehorses]
+        description: reload config
+        permissions: PortableHorses.admin
+permissions:
+    PortableHorses.*:
+        description: Gives access to all plugin functions
+        children:
+            PortableHorses.save: true
+            PortableHorses.store: true
+    PortableHorses.place:
+        description: Allows saving horses to saddles
+        default: true
+    PortableHorses.store:
+        description: Allows spawning horses from saddles
+        default: true
+    PortableHorses.admin:
+        description: admin commands 
+        default: op
